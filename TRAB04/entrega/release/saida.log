@@ -1,0 +1,48 @@
+
+
+LES - Laboratório de Engenharia de Software DI/PUC-Rio
+      Arcabouço de teste de módulos C  (c) 2006
+
+---------------------------------------------
+      Construto sob teste: TRAB4-1
+
+      Arquivo de teste:    TesteListaRelease.script
+
+
+!!!    0  Linha:     1  // Script:    TesteLista.script 
+!!!    0  Linha:     2  // Autores:   Fernando Tancini 
+!!!    0  Linha:     3  //	      Julia Rocha 
+!!!    0  Linha:     4  //	      Suemy Inagaki 
+!!!    0  Linha:     5  // Data:      03/07/2019 
+!!!    0  Linha:     6  // Proposito: Testar o modulo lista generica duplamente encadeada - instrumentacao 
+!!!    0  Linha:     7  // 
+    9  == Inicializar valores
+   28  == Criar a lista 0
+   32  == Inserir elemento em lista vazia
+   36  == Inserir elemento apÃ³s primeiro
+   40  == Inserir elemento antes do Ãºltimo
+   44  == Excluir elemento do meio
+   48  == Excluir elemento do inÃ­cio
+   52  == Excluir elemento final, Ãºnico
+   56  == Ver se a lista ficou vazia
+   59  == Destruir a lista
+   62  == Criar uma lista com dois elementos
+   67  == Esvaziar a lista e ver se ficou vazia
+   71  == Destruir a lista
+   74  == Criar uma lista com quatro elementos
+   81  == Verificar a lista de trÃ¡s para diante
+   91  == Verificar a lista de frente para trÃ¡s
+  101  == Verificar a lista andando demais de trÃ¡s para diante
+  105  == Verificar a lista andando demais de frente para trÃ¡s
+  109  == Destruir a lista
+!!!    0  Linha:   112  // fim 
+
+!!! Número de linhas lidas:         112
+!!! Número de casos de teste:        19
+!!! Número comandos corretos:        61
+!!! Número de falhas encontradas:     0
+
+!!! Não foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0
