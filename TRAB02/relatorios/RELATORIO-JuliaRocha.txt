@@ -1,0 +1,13 @@
+___Data___|___Horas_Trabalhadas___|______Tipo_Tarefa_________|______Descrição da Tarefa Realizada_____________________________
+01/05/2019| 02 horas e 00 minutos | projetar                 | Criei o modulo Peca e o modulo Dado
+01/05/2019| 04 horas e 00 minutos | codificar módulo         | Terminei os arquivos .h
+03/05/2019| 03 horas e 00 minutos | codificar módulo         | Terminei os arquivos .c
+05/05/2019| 02 horas e 00 minutos | realizar os testes       | Fiz o script e o modulo de testes para Peca
+05/05/2019| 01 horas e 00 minutos | realizar os testes       | Fiz o script e o modulo de testes para Dado
+09/05/2019| 02 horas e 00 minutos | revisar código do módulo | Revisei o codigo da Peca
+09/05/2019| 01 horas e 00 minutos | revisar código do módulo | Revisei o codigo do Dado
+09/05/2019| 02 horas e 00 minutos | revisar script de teste  | Revisei o script
+11/05/2019| 01 horas e 00 minutos | especificar os módulos   | Documentar o modulo
+11/05/2019| 01 horas e 00 minutos | especificar as funções   | Documentar o modulo
+13/05/2019| 04 horas e 00 minutos | modelar                  | Fiz o modelo estrutural, com assertivas e exemplo
+13/05/2019| 01 horas e 00 minutos | projetar                 | Fiz o relatório e organizei a entrega

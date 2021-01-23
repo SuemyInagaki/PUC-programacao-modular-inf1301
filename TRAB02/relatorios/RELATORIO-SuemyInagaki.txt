@@ -1,0 +1,22 @@
+___Data___|___Horas_Trabalhadas___|______Tipo_Tarefa______|______Descrição da Tarefa Realizada_____________________________
+22/04/2019| 04 horas e 30 minutos | projetar              | Comecei a especificação de requisitos sozinha
+22/04/2019| 02 horas e 00 minutos | estudar               | Estudei o jogo gamão para aprender a jogar e melhorar a especificação de requisitos
+22/04/2019| 03 horas e 30 minutos | estudar               | Respondi 9 questões que foram passadas em sala de aula.
+22/04/2019| 01 horas e 00 minutos | projetar              | Reunião com o grupo para ver a divisão de tarefas
+27/04/2019| 03 horas e 00 minutos | especificar os modulos| Especifiquei o modulo dadoPontos
+29/04/2019| 02 horas e 00 minutos | codificar o módulo    | Comecei a implementar o módulo DadoPontos
+29/04/2019| 04 horas e 00 minutos | revisar especificacoes| Terminei todas as especificacoes de requisitos funcionais e não funcionais
+30/04/2019| 04 horas e 00 minutos | revisar especificacoes| Terminei de diagramar a especificacao de requisios para a entrega final
+01/05/2019| 03 horas e 00 minutos | codificar o modulo    | Terminei o .c e o .h do modulo DadoPontos
+01/05/2019| 03 horas e 00 minutos | especificar funcoes   | Criei e adicionei as assertivas das funcoes dos módulos PECA, TABULEIRO, LISTA, DADO, DADOPONTOS (Todos os modulos do trabalho 2)
+01/05/2019| 03 horas e 00 minutos | revisar codigo do mod.| Revisei os codigos e comentarios do modulo DadoPontos
+02/05/2019| 01 horas e 00 minutos | redigir script de test| Comecei a desenvolver o arquivo TestDadoPontos.c com o teste
+03/05/2019| 01 horas e 00 munutos | redigir script de test| Terminei o arquivo TestDadoPontos.c
+04/05/2019| 00 horas e 30 minutos | estudar               | Estudei como fazer um script de teste
+04/05/2019| 03 horas e 00 munutos | revisar projetos      | Revisei toda a especificacao de requisitos, já que eu já tinha feito todo o documento
+05/05/2019| 02 horas e 00 minutos | revisar projetos      | Organizei todos os arquivos nas pastas, já preparados para a entrega final
+11/05/2019| 06 horas e 00 minutos | revisar projetos      | Refiz o módulo alterando a estrutura de dados e fiz as alterações necessárias nos outros locais (Especificação de requisitos, teste, script..)
+12/05/2019| 06 horas e 00 minutos | estudar               | Organizei o caderno para ser entregue junto com o trabalho
+
+
+

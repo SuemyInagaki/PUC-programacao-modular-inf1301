@@ -1,0 +1,12 @@
+___Data___|___Horas_Trabalhadas___|______Tipo_Tarefa_________|______Descrição da Tarefa Realizada_____________________________
+28/04/2019| 03 horas e 30 minutos | projetar                 | Criei todos arquivos para o modulo Tabuleiro
+28/04/2019| 06 horas e 00 minutos | codificar módulo         | Terminei o arquvio .h e os integradores com o arcabouco
+05/05/2019| 08 horas e 00 minutos | codificar módulo         | Terminei o arquivo .c
+05/05/2019| 02 horas e 00 minutos | realizar os testes       | Fiz o script e testei com o modulo PECA junto
+11/05/2019| 02 horas e 00 minutos | revisar código do módulo | Revisei o codigo do tabuleiro
+11/05/2019| 02 horas e 00 minutos | revisar script de teste  | Revisei o script
+11/05/2019| 01 horas e 00 minutos | especificar os módulos   | Documentar o modulo
+11/05/2019| 01 horas e 00 minutos | especificar as funções   | Documentar o modulo
+12/05/2019| 04 horas e 00 minutos | projetar                 | Fiz a minha parte do relatorio e organizei a entrega
+
+
