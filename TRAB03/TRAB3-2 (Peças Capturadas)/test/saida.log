@@ -1,0 +1,31 @@
+
+!!! Inicio dos testes
+!!!      Construto sob teste: PecasCapturadas
+!!!      Script de teste:     teste.script
+
+!!!    0  Linha:     1  // Script:    TestePecasCapturadas.script 
+!!!    0  Linha:     3  // Autore:    Júlia Rocha 
+!!!    0  Linha:     4  // Data:      15/06/2019 
+!!!    0  Linha:     6  // Proposito: Testar o modulo Pecas Capturadas 
+   10  == Inicializar valores
+   19  == Criar Lista de Pecas capturadas
+   22  == Destruir Lista de Pecas capturadas
+   25  == Destruindo uma lista que nao existe com recuperar
+>>>    1  Linha:    26  Erro ao destruir lista de pecas Capturadas Deveria ser: 0  É: 1
+<<<    0  Linha:    27  Falha esperada foi recuperada. 
+   29  ==Destruindo uma lista que nao existe e acusando o erro
+   32  ==Inserir uma peca na lista que nao existe acusando o erro
+   35  ==Inserir uma peca na Lista que nao existe com recuperar
+>>>    1  Linha:    36  Erro ao inserir pecas Deveria ser: 0  É: 1
+<<<    0  Linha:    37  Falha esperada foi recuperada. 
+!!!    0  Linha:    38  // fim 
+
+!!! Número de linhas lidas:          38
+!!! Número de casos de teste:         7
+!!! Número comandos corretos:         8
+!!! Número de falhas encontradas:     0
+
+!!! Não foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0
