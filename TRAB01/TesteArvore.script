@@ -1,7 +1,7 @@
 // Script:    TesteArvore.script
 // Autor:     Julia Rocha
 // Data:      01/abr/2019
-// PropÛsito: Testa a construÁ„o de uma ·rvore usando par‚metros literais, testa costura da arvore em rodem alfabetica
+// Prop√≥sito: Testa a constru√ß√£o de uma √°rvore usando par√¢metros literais, testa costura da arvore em rodem alfabetica
 //
 
 == Verificar assertivas de entrada de irdir
@@ -11,10 +11,10 @@
 =irdir      0
 =recuperar 
 
-== Verificar ObterValorCorr relativo a ·rvore inexistente
+== Verificar ObterValorCorr relativo a √°rvore inexistente
 =obter      '!'   4
 
-== Verificar recuperar de ObterValorCorr relativo a ·rvore inexistente
+== Verificar recuperar de ObterValorCorr relativo a √°rvore inexistente
 =obter      '!'   1  
 =recuperar
 
@@ -24,7 +24,7 @@
 == Verificar comando de ir para esquerda antes da arvore
 =iresq 4
 
-== Criar ·rvore
+== Criar √°rvore
 =criar      0  
 
 == Ir para direita com arvore vazia
@@ -43,24 +43,24 @@
 =irpai 6
 =obter 'a' 0
 
-== Inserir ‡ direita
+== Inserir √† direita
 =insdir     'j'   0
 =obter 	'j' 0
 
-== Inserir ‡ direita
+== Inserir √† direita
 =insdir     'd'   0
 =obter 	'd' 0
 
-== Inserir ‡ esquerda
+== Inserir √† esquerda
 =irpai	0
 =obter 	'j' 0
 =insesq     'b'   0
 
-== Inserir ‡ direita, nao da
+== Inserir √† direita, nao da
 =irpai	0
 =insdir     'f'   3
 
-== Inserir ‡ esquerda, nao da
+== Inserir √† esquerda, nao da
 =insdir     'g'   3
 
 == Verificar controle de obter o valor inserido errado
