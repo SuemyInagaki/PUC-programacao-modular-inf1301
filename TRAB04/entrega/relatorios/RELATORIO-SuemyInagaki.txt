@@ -1,0 +1,8 @@
+___Data___|___Horas_Trabalhadas___|______Tipo_Tarefa______|______Descrição da Tarefa Realizada_____________________________
+29/06/2019| 01 horas e 30 minutos | projetar              | Estudei as tarefas do trabalho em grupo
+01/07/2019| 02 horas e 00 minutos | estudar               | Estudei sobre deturpação em grupo
+01/07/2019| 01 horas e 30 minutos | estudar               | Reunião com o grupo para definir as atribuições
+02/04/2019| 01 horas e 00 minutos | codificar módulo      | Fiz a parte de organização dos arquivos e algumas coisas de código
+
+
+
