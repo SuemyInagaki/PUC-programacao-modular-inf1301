@@ -1,0 +1,33 @@
+LEIA-ME Trabalho 4
+
+Desenvolvido por:
+	1711799 - Fernando Tancini - fernandotancini@hotmail.com
+	1710635 - Júlia Rocha - juliaafr@outlook.com
+	1811208 - Suemy Inagaki - inagakisuemy@gmail.com  
+
+Apresentação:
+	Este texto descreve resumidamente o conteúdo e funcionamento do arquivo INF1301-Trab04-FJS.zip.
+	Os programas contidos neste arquivo .zip realizam testes para o módulo LISTA.C.
+
+conteúdo:
+	O conteúdo extraído do zip está dividido nas seguintes pastas:
+	- este arquivo,
+	- Documentação-FJS.pdf: o arquivo com o modelo de lista genérica auto-verificável e assertivas estruturais,
+	- TRAB4: contém os arquivos fontes e executáveis.
+	- Relatórios: contém os Relatórios feitos pelos alunos que desenvolveram este trabalho.
+
+	Na pasta extraída também deve estar contido o arquivo LEIAME.txt (o presente documento), e o arquivo Documentação, contendo o modelo estrutural com as respectivas assertivas estruturais atualizadas para a estrutura autoverificável, e a descrição de cada comando de teste disponibilizado para testar o verificador.
+
+Instruções:
+	Primeiro, È necessário extrair o conteúdo do arquivo INF1301-Trab04-FJS.zip
+
+	Para executar os testes relativos ao módulo Lista, sem deturpação:
+	1) Abra a pasta TRAB4 contida dentro da pasta onde o arquivo foi extraído.
+	2) Execute o arquivo TesteLista.bat
+	3) Para visualizar o resultado da execução, abra o arquivo Saida.log
+	
+	Para executar os testes relativos ao módulo Lista, com deturpação:
+	1) Abra a pasta TRAB4 contida dentro da pasta onde o arquivo foi extraído.
+	2) Execute o arquivo testeLista.bat
+	3) A declaração dos contadores está em Lista.count e o total dos contadores ser impresso na tela, e armazenada no arquivo Saida.count. O log completo, com os casos de teste realizados, pode ser visualizado ao abrir o arquivo TesteListaDebug.log.
+	
