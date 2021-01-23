@@ -1,0 +1,14 @@
+﻿___Data___|___Horas_Trabalhadas___|_Tipo_Tarefa_|_Descrição da Tarefa Realizada_____________________________
+15/03/2019| 00 horas e 30 minutos | estudar     | Li o arquivo Leia-Me do Arcabouço para configurar corretamente o visual studio.
+15/03/2019| 00 horas e 15 minutos | testar      | testei o executável criado na tarefa anterior com o script.
+15/03/2019| 00 horas e 20 minutos | estudar     | Estudei os códigos e os scrips para entender como funciona.
+24/03/2019| 00 horas e 40 minutos | codificar   | Criei os scripts com os erros.
+25/03/2019| 00 horas e 15 minutos | codificar   | Recuperei os erros que introduzi.
+29/03/2019| 05 horas e 30 minutos | codificar   | Implementei as funcoes de inserir folhas com listas encadeadas com tres numeros.
+29/03/2019| 00 horas e 30 minutos | testar      | Testei funcoes de inserir folhas com listas encadeadas com tres numeros.
+30/03/2019| 06 horas e 00 minutos | codificar   | Implementei as funcoes de costura e de mostrar a costura.
+30/03/2019| 00 horas e 30 minutos | testar      | testar as funcoes de costura e de mostrar a costura.
+
+
+
+

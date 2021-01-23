@@ -1,0 +1,17 @@
+﻿___Data___|___Horas_Trabalhadas___|_Tipo_Tarefa_|_Descrição da Tarefa Realizada_____________________________
+15/03/2019| 02 horas e 30 minutos | estudar     | Li o arquivo Leia-Me do Arcabouço para configurar corretamente o visual studio e finalmente conseguir compilar o testarv.c. Tive alguns problemas com a biblioteca, mas era por não estar adiconando-a corretamente no projeto do visual studio. 
+15/03/2019| 00 horas e 15 minutos | testar      | testei o executável criado na tarefa anterior com o script.
+15/03/2019| 03 horas e 00 minutos | estudar     | Estudei os códigos e os scrips para entender como funciona.
+18/03/2019| 02 horas e 25 minutos | projetar    | Tentando entender como os scripts funcionam,
+24/03/2019| 04 horas e 00 minutos | projetar    | Criei os scripts com os erros, encerrando parte 3 do trabalho 1,
+25/03/2019| 02 horas e 00 minutos | projetar    | Recuperei os erros que introduzi, encerrando parte 4 do trabalho 1,
+27/03/2019| 03 horas e 30 minutos | estudar     | Estudei a implementação de costura de árvore, começando parte 5 do trabalho 1,
+30/03/2019| 03 horas e 30 minutos | projetar    | Comecei um esboço para a implementação da árvore, mesmo com outras pessoas do grupo fazendo, achei melhor implementar para aprender bem,
+01/04/2019| 03 horas e 00 minutos | projetar    | Documentei o código da árvore implementada pelo grupo, 
+02/04/2019| 02 horas e 15 minutos | projetar    | Criei o arquivo LEIAME.TXT com as instruções de utilização do programa,
+02/04/2019| 00 horas e 30 munutis | projetar    | Criei os arquivos .bat para a execução do programa,
+03/04/2019| 01 horas e 00 minutos | projetar    | Fiz os ultimos ajustes no leiame e no cabeçalho dos módulos para deixar de acordo com as instruções,
+
+
+
+

@@ -1,0 +1,13 @@
+﻿___Data___|___Horas_Trabalhadas___|_Tipo_Tarefa_|_Descrição da Tarefa Realizada_____________________________
+16/03/2019| 01 horas e 30 minutos | estudar     | Li o arquivo Leia-Me do Arcabouço para configurar corretamente o visual studio e finalmente conseguir compilar o testarv.c. Assisti a um video que ajudou a colocar tudo no lugar certo de primeira. 
+16/03/2019| 00 horas e 20 minutos | testar      | testei o executável com o script disponivel.
+24/03/2019| 02 horas e 00 minutos | estudar     | Estudei os scripts para saber como funcionam
+24/03/2019| 00 horas e 10 minutos | projetar    | Criei os scripts com os erros, encerrando parte 3 e recuperei os erros, encerrando a parte 5.
+27/03/2019| 01 horas e 30 minutos | estudar     | Decidimos a divisao de tarefas do grupo e comecei a estudar mais os scripts já que fiquei responsavel pela parte de testes do arcabouço
+01/04/2019| 03 horas e 00 minutos | projetar    | Criei um novo script, mais completo, para testar as funcoes de costura e mosta costura já criadas pelo Fernando
+02/04/2019| 01 horas e 15 minutos | projetar    | Aperfeicoei o script criado para ser mais completo
+03/04/2019| 00 horas e 30 munutis | projetar    | Acrescentei os retornos de funcoes que estavam faltando no script
+03/04/2019| 01 horas e 30 munutis | projetar    | Revisao do script e do projeto junto com Fernando.
+
+
+
