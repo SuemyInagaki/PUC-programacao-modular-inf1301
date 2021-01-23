@@ -1,5 +1,5 @@
 /***************************************************************************
-*  $MCI MÛdulo de implementaÁ„o: MÛdulo de teste especÌfico
+*  $MCI M√≥dulo de implementa√ß√£o: M√≥dulo de teste espec√≠fico
 *
 *  Arquivo gerado:              TESTARV.C
 *  Letras identificadoras:      TARV
@@ -11,47 +11,47 @@
 *  Gestor:  DI/PUC-Rio
 *  Autores: avs - Arndt von Staa, ft -  Fernando tancini
 *
-*  $HA HistÛrico de evoluÁ„o:
-*     Vers„o  Autor    Data     ObservaÁıes
-*       4.00   ft    03/04/2019 Adicao das funÁıes do T1
-*       3.00   avs   28/02/2003 UniformizaÁ„o da interface das funÁıes e
-*                               de todas as condiÁıes de retorno.
-*       2.00   avs   03/08/2002 EliminaÁ„o de cÛdigo duplicado, reestruturaÁ„o
-*       1.00   avs   15/08/2001 InÌcio do desenvolvimento
+*  $HA Hist√≥rico de evolu√ß√£o:
+*     Vers√£o  Autor    Data     Observa√ß√µes
+*       4.00   ft    03/04/2019 Adicao das fun√ß√µes do T1
+*       3.00   avs   28/02/2003 Uniformiza√ß√£o da interface das fun√ß√µes e
+*                               de todas as condi√ß√µes de retorno.
+*       2.00   avs   03/08/2002 Elimina√ß√£o de c√≥digo duplicado, reestrutura√ß√£o
+*       1.00   avs   15/08/2001 In√≠cio do desenvolvimento
 *
-*  $ED DescriÁ„o do mÛdulo
-*     Este m«odulo contÈm as funÁıes especÌficas para o teste do
-*     mÛdulo ·rvore. Ilustra como redigir um interpretador de comandos
-*     de teste especÌficos utilizando o arcabouÁo de teste para C.
+*  $ED Descri√ß√£o do m√≥dulo
+*     Este m√áodulo cont√©m as fun√ß√µes espec√≠ficas para o teste do
+*     m√≥dulo √°rvore. Ilustra como redigir um interpretador de comandos
+*     de teste espec√≠ficos utilizando o arcabou√ßo de teste para C.
 *
-*  $EIU Interface com o usu·rio pessoa
-*     Comandos de teste especÌficos para testar o mÛdulo ·rvore:
+*  $EIU Interface com o usu√°rio pessoa
+*     Comandos de teste espec√≠ficos para testar o m√≥dulo √°rvore:
 *
-*     =criar        - chama a funÁ„o ARV_CriarArvore( )
+*     =criar        - chama a fun√ß√£o ARV_CriarArvore( )
 *     =insdir <Char>
-*                   - chama a funÁ„o ARV_InserirDireita( <Char> )
-*                     Obs. notaÁ„o: <Char>  È o valor do par‚metro
+*                   - chama a fun√ß√£o ARV_InserirDireita( <Char> )
+*                     Obs. nota√ß√£o: <Char>  √© o valor do par√¢metro
 *                     que se encontra no comando de teste.
 *     "=insfolhadir" <Char> <int1> <int2> <int3>
-*                   - chama a funÁ„o ARV_InserirFolhaDireita( <Char>, <int1>, <int2>, <int3> )
-*                     Obs. notaÁ„o: <Char>, <int1>, <int2>, <int3>  s„o os valores dos par‚metros
+*                   - chama a fun√ß√£o ARV_InserirFolhaDireita( <Char>, <int1>, <int2>, <int3> )
+*                     Obs. nota√ß√£o: <Char>, <int1>, <int2>, <int3>  s√£o os valores dos par√¢metros
 *                     que se encontram no comando de teste.
 *     "=insesq" <Char>
-*                   - chama a funÁ„o ARV_InserirEsquerda( <Char> )
+*                   - chama a fun√ß√£o ARV_InserirEsquerda( <Char> )
 *     "=insfolhaesq" <Char> <int1> <int2> <int3>
-*                   - chama a funÁ„o ARV_InserirFolhzEsquerda( <Char>, <int1>, <int2>, <int3> )
-*                     Obs. notaÁ„o: <Char>, <int1>, <int2>, <int3>  s„o os valores dos par‚metros
+*                   - chama a fun√ß√£o ARV_InserirFolhzEsquerda( <Char>, <int1>, <int2>, <int3> )
+*                     Obs. nota√ß√£o: <Char>, <int1>, <int2>, <int3>  s√£o os valores dos par√¢metros
 *                     que se encontram no comando de teste.\
-*     "=costurar"   - chama a funÁ„o ARV_CosturarFolhas( )
+*     "=costurar"   - chama a fun√ß√£o ARV_CosturarFolhas( )
 *     "=mostrarcostura"
-*                   - chama a funÁ„o ARV_IrPai( )
-*     "=irpai"      - chama a funÁ„o ARV_IrPai( )
-*     "=iresq"      - chama a funÁ„o ARV_IrEsquerda( )
-*     "=irdir"      - chama a funÁ„o ARV_IrDireita( )
+*                   - chama a fun√ß√£o ARV_IrPai( )
+*     "=irpai"      - chama a fun√ß√£o ARV_IrPai( )
+*     "=iresq"      - chama a fun√ß√£o ARV_IrEsquerda( )
+*     "=irdir"      - chama a fun√ß√£o ARV_IrDireita( )
 *     "=obter" <Char>
-*                   - chama a funÁ„o ARV_ObterValorCorr( ) e compara
+*                   - chama a fun√ß√£o ARV_ObterValorCorr( ) e compara
 *                     o valor retornado com o valor <Char>
-*     "=destroi"    - chama a funÁ„o ARV_DestruirArvore( )
+*     "=destroi"    - chama a fun√ß√£o ARV_DestruirArvore( )
 *
 ***************************************************************************/
 
@@ -65,7 +65,7 @@
 
 #include    "arvore.h"
 
-/* Tabela dos nomes dos comandos de teste especÌficos */
+/* Tabela dos nomes dos comandos de teste espec√≠ficos */
 
 #define     CRIAR_ARV_CMD       "=criar"
 #define     INS_DIR_CMD         "=insdir"
@@ -80,18 +80,18 @@
 #define     OBTER_VAL_CMD       "=obter"
 #define     DESTROI_CMD         "=destruir"
 
-/*****  CÛdigo das funÁıes exportadas pelo mÛdulo  *****/
+/*****  C√≥digo das fun√ß√µes exportadas pelo m√≥dulo  *****/
 
 
 /***********************************************************************
 *
-*  $FC FunÁ„o: TARV Efetuar operaÁıes de teste especÌficas para ·rvore
+*  $FC Fun√ß√£o: TARV Efetuar opera√ß√µes de teste espec√≠ficas para √°rvore
 *
-*  $ED DescriÁ„o da funÁ„o
-*     Efetua os diversos comandos de teste especÌficos para o mÛdulo
-*     ·rvore sendo testado.
+*  $ED Descri√ß√£o da fun√ß√£o
+*     Efetua os diversos comandos de teste espec√≠ficos para o m√≥dulo
+*     √°rvore sendo testado.
 *
-*  $EP Par‚metros
+*  $EP Par√¢metros
 *     $P ComandoTeste - String contendo o comando
 *
 *  $FV Valor retornado
@@ -118,7 +118,7 @@
 
       TST_tpCondRet Ret ;
 
-      /* Testar ARV Criar ·rvore */
+      /* Testar ARV Criar √°rvore */
 
          if ( strcmp( ComandoTeste , CRIAR_ARV_CMD ) == 0 )
          {
@@ -133,11 +133,11 @@
             CondRetObtido = ARV_CriarArvore( ) ;
 
             return TST_CompararInt( CondRetEsperada , CondRetObtido ,
-                                    "Retorno errado ao criar ·rvore." );
+                                    "Retorno errado ao criar √°rvore." );
 
-         } /* fim ativa: Testar ARV Criar ·rvore */
+         } /* fim ativa: Testar ARV Criar √°rvore */
 
-      /* Testar ARV Adicionar filho ‡ direita */
+      /* Testar ARV Adicionar filho √† direita */
 
          else if ( strcmp( ComandoTeste , INS_DIR_CMD ) == 0 )
          {
@@ -152,11 +152,11 @@
             CondRetObtido = ARV_InserirDireita( ValorDado ) ;
 
             return TST_CompararInt( CondRetEsperada , CondRetObtido ,
-                                    "Retorno errado inserir ‡a direita." );
+                                    "Retorno errado inserir √†a direita." );
 
-         } /* fim ativa: Testar ARV Adicionar filho ‡ direita */
+         } /* fim ativa: Testar ARV Adicionar filho √† direita */
 
-		 /* Testar ARV Adicionar folha ‡ direita */
+		 /* Testar ARV Adicionar folha √† direita */
 
          else if ( strcmp( ComandoTeste , INS_FOLHA_DIR_CMD ) == 0 )
          {
@@ -171,11 +171,11 @@
             CondRetObtido = ARV_InserirFolhaDireita( ValorDado, int1, int2, int3) ;
 
             return TST_CompararInt( CondRetEsperada , CondRetObtido ,
-                                    "Retorno errado inserir ‡a direita." );
+                                    "Retorno errado inserir √†a direita." );
 
-         } /* fim ativa: Testar ARV Adicionar folha ‡ direita */
+         } /* fim ativa: Testar ARV Adicionar folha √† direita */
 
-      /* Testar ARV Adicionar filho ‡ esquerda */
+      /* Testar ARV Adicionar filho √† esquerda */
 
          else if ( strcmp( ComandoTeste , INS_ESQ_CMD ) == 0 )
          {
@@ -190,11 +190,11 @@
             CondRetObtido = ARV_InserirEsquerda( ValorDado ) ;
 
             return TST_CompararInt( CondRetEsperada , CondRetObtido ,
-                                    "Retorno errado ao inserir ‡ esquerda." );
+                                    "Retorno errado ao inserir √† esquerda." );
 
-         } /* fim ativa: Testar ARV Adicionar filho ‡ esquerda */
+         } /* fim ativa: Testar ARV Adicionar filho √† esquerda */
 
-		 /* Testar ARV Adicionar folha ‡ esquerda */
+		 /* Testar ARV Adicionar folha √† esquerda */
 
          else if ( strcmp( ComandoTeste , INS_FOLHA_ESQ_CMD ) == 0 )
          {
@@ -209,11 +209,11 @@
             CondRetObtido = CondRetObtido = ARV_InserirFolhaEsquerda( ValorDado, int1, int2, int3) ;
 			
             return TST_CompararInt( CondRetEsperada , CondRetObtido ,
-                                    "Retorno errado ao inserir folha ‡ esquerda." );
+                                    "Retorno errado ao inserir folha √† esquerda." );
 
-         } /* fim ativa: Testar ARV Adicionar folha ‡ esquerda */
+         } /* fim ativa: Testar ARV Adicionar folha √† esquerda */
 
-		/* Testar ARV Costurar os nÛs folhas em ordem alfabetica  */
+		/* Testar ARV Costurar os n√≥s folhas em ordem alfabetica  */
 
          else if ( strcmp( ComandoTeste , COSTURA_CMD ) == 0 )
          {
@@ -230,7 +230,7 @@
             return TST_CompararInt( CondRetEsperada , CondRetObtido ,
                                     "Retorno errado tentar costurar." );
 
-         } /* fim ativa: Testar ARV Costurar os nÛs folhas em ordem alfabetica */
+         } /* fim ativa: Testar ARV Costurar os n√≥s folhas em ordem alfabetica */
 
 		 /* Testar ARV Mostra os nos na costura  */
 
@@ -249,9 +249,9 @@
             return TST_CompararInt( CondRetEsperada , CondRetObtido ,
                                     "Retorno errado tentar costurar." );
 
-         } /* fim ativa: Testar ARV Costurar os nÛs folhas em ordem alfabetica */
+         } /* fim ativa: Testar ARV Costurar os n√≥s folhas em ordem alfabetica */
 
-      /* Testar ARV Ir para nÛ pai */
+      /* Testar ARV Ir para n√≥ pai */
 
          else if ( strcmp( ComandoTeste , IR_PAI_CMD ) == 0 )
          {
@@ -268,9 +268,9 @@
             return TST_CompararInt( CondRetEsperada , CondRetObtido ,
                                     "Retorno errado ao ir para pai." );
 
-         } /* fim ativa: Testar ARV Ir para nÛ pai */
+         } /* fim ativa: Testar ARV Ir para n√≥ pai */
 
-      /* Testar ARV Ir para nÛ ‡ esquerda */
+      /* Testar ARV Ir para n√≥ √† esquerda */
 
          else if ( strcmp( ComandoTeste , IR_ESQ_CMD ) == 0 )
          {
@@ -287,9 +287,9 @@
             return TST_CompararInt( CondRetEsperada , CondRetObtido ,
                                     "Retorno errado ao ir para esquerda." );
 
-         } /* fim ativa: Testar ARV Ir para nÛ ‡ esquerda */
+         } /* fim ativa: Testar ARV Ir para n√≥ √† esquerda */
 
-      /* Testar ARV Ir para nÛ ‡ direita */
+      /* Testar ARV Ir para n√≥ √† direita */
 
          else if ( strcmp( ComandoTeste , IR_DIR_CMD ) == 0 )
          {
@@ -306,7 +306,7 @@
             return TST_CompararInt( CondRetEsperada , CondRetObtido ,
                                     "Retorno errado ao ir para direita." );
 
-         } /* fim ativa: Testar ARV Ir para nÛ ‡ direita */
+         } /* fim ativa: Testar ARV Ir para n√≥ √† direita */
 
       /* Testar ARV Obter valor corrente */
 
@@ -331,11 +331,11 @@
             } /* if */
 
             return TST_CompararChar( ValorEsperado , ValorObtido ,
-                                     "Conte˙do do nÛ est· errado." ) ;
+                                     "Conte√∫do do n√≥ est√° errado." ) ;
 
          } /* fim ativa: Testar ARV Obter valor corrente */
 
-      /* Testar ARV Destruir ·rvore */
+      /* Testar ARV Destruir √°rvore */
 
          else if ( strcmp( ComandoTeste , DESTROI_CMD ) == 0 )
          {
@@ -344,11 +344,11 @@
 
             return TST_CondRetOK ;
 
-         } /* fim ativa: Testar ARV Destruir ·rvore */
+         } /* fim ativa: Testar ARV Destruir √°rvore */
 
       return TST_CondRetNaoConhec ;
 
-   } /* Fim funÁ„o: TARV Efetuar operaÁıes de teste especÌficas para ·rvore */
+   } /* Fim fun√ß√£o: TARV Efetuar opera√ß√µes de teste espec√≠ficas para √°rvore */
 
-/********** Fim do mÛdulo de implementaÁ„o: MÛdulo de teste especÌfico **********/
+/********** Fim do m√≥dulo de implementa√ß√£o: M√≥dulo de teste espec√≠fico **********/
 
