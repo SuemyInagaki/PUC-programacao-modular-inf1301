@@ -1,0 +1,50 @@
+
+!!! Inicio dos testes
+!!!      Construto sob teste: TRAB2-3
+!!!      Script de teste:     TestDadoPontos.script
+
+!!!    0  Linha:     1  // Script:    TesteDadoPontos.script 
+!!!    0  Linha:     2  // Autore:   Suemy Inagaki Pinheiro Fagundes 
+!!!    0  Linha:     3  // // Data:      11/05/2019 
+!!!    0  Linha:     4  // Proposito: Testar o modulo Dado de Pontos 
+!!!    0  Linha:     5  // 
+    7  == Inicializar valores
+   22  == Criar dado de pontos
+   25  == Destruir dado de pontos
+   28  == Criar segundo dado de pontos
+   31  == Destruindo um dado que existe
+   34  == Destruir dado de pontos que nao existe avisa que nao tem dado
+   37  == Destruir dado de pontos que nao existe recupera erro
+>>>    1  Linha:    38  Erro ao destruir Dado de Pontos. Deveria ser: 0  …: 1
+<<<    0  Linha:    39  Falha esperada foi recuperada. 
+   41  == Obter pontuacao partida sem dado pontos e dando erro
+>>>    1  Linha:    42  Erro ao Obter pontua√ß√£o da partida. Deveria ser: 0  …: 1
+<<<    0  Linha:    43  Falha esperada foi recuperada. 
+   45  == Obter pontuacao partida dado pontos nao existe
+   48  == Atualizar jogador que pode dobrar a pontuacao da partida
+   51  == Atualizar jogador que pode dobrar a pontuacao da partida com recuperar erro
+>>>    1  Linha:    52  Erro ao atualizar jogador de dobra. Deveria ser: 0  …: 1
+<<<    0  Linha:    53  Falha esperada foi recuperada. 
+   55  == Obter jogador que possui o dado de pontos mas sem dado de pontos criado mas sem pertencer a ele
+   58  == Criar dado de pontos
+   61  == Obter jogador que possui o dado de pontos com dado de pontos criado
+   64  == Dobrar pontuacao partida com o dado de pontos mas sem o dado pertencer ao jogador
+>>>    1  Linha:    65  Erro ao dobrar pontuacao da partida. Deveria ser: 0  …: 2
+<<<    0  Linha:    66  Falha esperada foi recuperada. 
+   68  == Destruir dado de pontos
+   71  == Dobrar pontuacao partida sem o dado de pontos
+   74  == Criar dado de pontos
+   77  == Dobrar pontuacao partida com jogador que nao possui um dado de pontos
+   80  == Obter jogador que dobra partida de pontos mas sem existir jogador que possui dado ponto
+   85  == Obter jogador que dobra partida sem existir dado de pontos
+!!!    0  Linha:    88  // fim 
+
+!!! N˙mero de linhas lidas:          88
+!!! N˙mero de casos de teste:        21
+!!! N˙mero comandos corretos:        24
+!!! N˙mero de falhas encontradas:     0
+
+!!! N„o foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0

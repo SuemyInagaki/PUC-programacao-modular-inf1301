@@ -1,0 +1,88 @@
+// Script:    TesteDadoPontos.script
+// Autore:   Suemy Inagaki Pinheiro Fagundes
+// // Data:      11/05/2019
+// Proposito: Testar o modulo Dado de Pontos
+//
+
+== Inicializar valores
+
+
+=declararparm   FalhaMemoria	               int  -1
+=declararparm   SemErro        	               int  0
+=declararparm   NaoTemDadoPontos               int  1
+=declararparm   JogadorNaoTemDadoPontos        int  2
+=declararparm	NaoExisteJogadorComDadoPontos  int  3
+
+
+
+=declararparm	Preta       char 'p'
+=declararparm	Vermelha	char 'v'
+
+
+== Criar dado de pontos
+=criardadopontos     SemErro
+
+== Destruir dado de pontos
+=destruirdadopontos  SemErro
+
+== Criar segundo dado de pontos
+=criardadopontos     SemErro
+
+== Destruindo um dado que existe
+=destruirdadopontos  SemErro
+
+== Destruir dado de pontos que nao existe avisa que nao tem dado
+=destruirdadopontos NaoTemDadoPontos
+
+== Destruir dado de pontos que nao existe recupera erro
+=destruirdadopontos  SemErro
+=recuperar
+
+== Obter pontuacao partida sem dado pontos e dando erro
+=obterpontuacaopartida  2 SemErro
+=recuperar
+
+== Obter pontuacao partida dado pontos nao existe
+=obterpontuacaopartida  2 NaoTemDadoPontos
+
+== Atualizar jogador que pode dobrar a pontuacao da partida
+=jogadordobraatualiza  Vermelha NaoTemDadoPontos
+
+== Atualizar jogador que pode dobrar a pontuacao da partida com recuperar erro 
+=jogadordobraatualiza  Vermelha SemErro
+=recuperar
+
+== Obter jogador que possui o dado de pontos mas sem dado de pontos criado mas sem pertencer a ele
+=obterjogadordobrapts  2 NaoTemDadoPontos
+
+== Criar dado de pontos
+=criardadopontos     SemErro
+
+== Obter jogador que possui o dado de pontos com dado de pontos criado
+=obterjogadordobrapts  2 NaoExisteJogadorComDadoPontos
+
+== Dobrar pontuacao partida com o dado de pontos mas sem o dado pertencer ao jogador
+=dobrarpontuacao  Preta SemErro
+=recuperar
+
+== Destruir dado de pontos
+=destruirdadopontos  SemErro
+
+== Dobrar pontuacao partida sem o dado de pontos
+=dobrarpontuacao  Vermelha NaoTemDadoPontos
+
+== Criar dado de pontos
+=criardadopontos SemErro
+
+== Dobrar pontuacao partida com jogador que nao possui um dado de pontos
+=dobrarpontuacao Vermelha JogadorNaoTemDadoPontos
+
+== Obter jogador que dobra partida de pontos mas sem existir jogador que possui dado ponto
+=obterjogadordobrapts  2 NaoExisteJogadorComDadoPontos
+
+=destruirdadopontos SemErro
+
+== Obter jogador que dobra partida sem existir dado de pontos
+=obterjogadordobrapts  2 NaoTemDadoPontos
+
+// fim

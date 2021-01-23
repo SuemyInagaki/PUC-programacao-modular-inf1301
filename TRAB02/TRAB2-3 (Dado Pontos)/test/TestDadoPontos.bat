@@ -1,0 +1,1 @@
+TRAB2-3 /sTestDadoPontos.script /lsaida.log
