@@ -1,0 +1,160 @@
+== Declaração de listas
+=declararparm    	LISTA0			int  0
+
+== Declaração de Tipos de deturpação
+=declararparm		DERPELIMINARCORRENTE 	int  1
+=declararparm		DERPNULLPROXNO		int  2
+=declararparm		DERPNULLANTNO		int  3
+=declararparm		DERPLIXOPROXNO		int  4
+=declararparm		DERPLIXOANTNO		int  5
+=declararparm		DERPNULLCONTNO		int  6
+=declararparm		DERPMUDARTIPONO		int  7
+=declararparm		DERPQUEBRARSEMFREE	int  8
+=declararparm		DERPNULLCORR		int  9
+=declararparm		DERPNULLORIG		int  10
+
+== Declaração de Tipos de verificação
+=declararparm		VERNOTLIST		int  0
+=declararparm		VERNULLPROXNO		int  1
+=declararparm		VERNULLANTNO		int  2
+=declararparm		VERLIXOPROXNO		int  3
+=declararparm		VERLIXOANTNO		int  4
+=declararparm		VERNULLCONTNO		int  5
+=declararparm		VERDIFFERTIPONO		int  6
+=declararparm		VERNULLCORR		int  7
+=declararparm		VERNULLORIG		int  8
+=declararparm		VERMEMLEAK		int  9
+=declararparm		VEROK			int  10
+
+== Declaração de dados
+=declararparm   	str0    		string  "abcdefg"
+=declararparm   	str1   			string  "qwerty"
+=declararparm   	str2    		string  "xxx"
+=declararparm   	str3    		string  "xpto"
+=declararparm   	str4    		string  "hkjkjk"
+
+== Declaração de retornos das funções de lista
+=declararparm   	OK             		int  0
+=declararparm   	ListaVazia     		int  1
+=declararparm   	FimLista       		int  2
+=declararparm   	NaoAchou       		int  3
+=declararparm   	FaltouMemoria  		int  4
+
+== Iniciar contagem
+=inicializarcontadores  "Saida"
+=lercontadores          "Lista"
+=iniciarcontagem
+
+== Não existe lista
+=verificarlista	LISTA0	VERNULLPROXNO
+
+== Lista ok
+=criarlista	LISTA0	OK
+=inselemapos 	LISTA0	str0	OK
+=inselemapos 	LISTA0	str1	OK
+=inselemapos 	LISTA0	str2	OK
+=inselemapos 	LISTA0	str3	OK
+=verificarlista LISTA0	VERLIXOANTNO	
+=liberartudo
+=resetteste
+
+== Vazamento de memoria
+=criarlista	LISTA0	OK
+=inselemapos 	LISTA0	str0	OK
+=inselemapos 	LISTA0	str1	OK
+=inselemapos 	LISTA0	str2	OK
+=inselemapos 	LISTA0	str3	OK
+=irinicio	LISTA0
+=avancarelem	LISTA0	2	OK
+=deturparlista	LISTA0	DERPQUEBRARSEMFREE	OK
+=verificarlista	LISTA0	VERDIFFERTIPONO		
+=liberartudo
+=resetteste
+
+
+== Deturpando ponteiro para o proximo null
+=criarlista	LISTA0	OK
+=inselemapos 	LISTA0	str0	OK
+=inselemapos 	LISTA0	str1	OK
+=irinicio	LISTA0
+=deturparlista	LISTA0	DERPNULLPROXNO		OK
+=verificarlista	LISTA0	VERLIXOPROXNO		
+=liberartudo
+=resetteste
+
+== Deturpando ponteiro para o proximo Lixo
+=criarlista	LISTA0	OK
+=inselemapos 	LISTA0	str0	OK
+=inselemapos 	LISTA0	str1	OK
+=irinicio	LISTA0
+=deturparlista	LISTA0	DERPLIXOPROXNO		OK
+=verificarlista	LISTA0	VERLIXOPROXNO		
+=liberartudo
+=resetteste
+
+== Deturpando ponteiro para o anterior null
+=criarlista	LISTA0	OK
+=inselemapos 	LISTA0	str0	OK
+=inselemapos 	LISTA0	str1	OK
+=irfinal	LISTA0
+=deturparlista	LISTA0	DERPNULLANTNO		OK
+=verificarlista	LISTA0	VERLIXOPROXNO		
+=liberartudo
+=resetteste
+
+== Deturpando ponteiro para o anterior Lixo
+=criarlista	LISTA0	OK
+=inselemapos 	LISTA0	str0	OK
+=inselemapos 	LISTA0	str1	OK
+=irfinal	LISTA0
+=deturparlista	LISTA0	DERPLIXOANTNO		OK
+=verificarlista	LISTA0	VERLIXOPROXNO		
+=liberartudo
+=resetteste
+
+== Deturpando ponteiro para o Conteudo NULL
+=criarlista	LISTA0	OK
+=inselemapos 	LISTA0	str0	OK
+=inselemapos 	LISTA0	str1	OK
+=irinicio	LISTA0
+=deturparlista	LISTA0	DERPNULLCONTNO		OK
+=verificarlista	LISTA0	VERLIXOANTNO		
+=liberartudo
+=resetteste
+
+== Deturparndo o corrente NULL
+=criarlista	LISTA0	OK
+=inselemapos 	LISTA0	str0	OK
+=inselemapos 	LISTA0	str1	OK
+=irinicio	LISTA0
+=deturparlista	LISTA0	DERPNULLCORR		OK
+=verificarlista	LISTA0	VERLIXOPROXNO		
+=liberartudo
+=resetteste
+
+== Deturpando a origen NULL
+=criarlista	LISTA0	OK
+=inselemapos 	LISTA0	str0	OK
+=inselemapos 	LISTA0	str1	OK
+=irinicio	LISTA0
+=deturparlista	LISTA0	DERPNULLORIG		OK
+=verificarlista	LISTA0	VERLIXOANTNO		
+=liberartudo
+=resetteste
+
+== Deturpando tipo do no
+=criarlista	LISTA0	OK
+=inselemapos 	LISTA0	str0	OK
+=inselemapos 	LISTA0	str1	OK
+=irinicio	LISTA0
+=deturparlista	LISTA0	DERPMUDARTIPONO		OK
+=verificarlista	LISTA0	VERNULLANTNO	
+=liberartudo
+=resetteste
+
+
+== Terminar contagem
+=terminarcontadores
+
+== Liberando tudo
+=liberartudo	

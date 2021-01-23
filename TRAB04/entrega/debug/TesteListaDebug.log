@@ -1,0 +1,40 @@
+
+
+LES - LaboratÛrio de Engenharia de Software DI/PUC-Rio
+      ArcabouÁo de teste de mÛdulos C  (c) 2006
+
+---------------------------------------------
+      Construto sob teste: TRAB4-2.exe
+
+      Arquivo de teste:    TesteListaDebug.script
+
+
+    1  == Declaração de listas
+    4  == Declaração de Tipos de deturpação
+   16  == Declaração de Tipos de verificação
+   29  == Declaração de dados
+   36  == Declaração de retornos das funções de lista
+   43  == Iniciar contagem
+   48  == Não existe lista
+   51  == Lista ok
+   61  == Vazamento de memoria
+   75  == Deturpando ponteiro para o proximo null
+   85  == Deturpando ponteiro para o proximo Lixo
+   95  == Deturpando ponteiro para o anterior null
+  105  == Deturpando ponteiro para o anterior Lixo
+  115  == Deturpando ponteiro para o Conteudo NULL
+  125  == Deturparndo o corrente NULL
+  135  == Deturpando a origen NULL
+  145  == Deturpando tipo do no
+  156  == Terminar contagem
+  159  == Liberando tudo
+
+!!! N˙mero de linhas lidas:         160
+!!! N˙mero de casos de teste:        19
+!!! N˙mero comandos corretos:       121
+!!! N˙mero de falhas encontradas:     0
+
+!!! N„o foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0
