@@ -1,0 +1,32 @@
+// Script:    TesteDadoPontos.script
+// Autore:   Suemy Inagaki Pinheiro Fagundes
+// // Data:      11/05/2019
+// Proposito: Testar o modulo Dado de Pontos
+//
+
+== Inicializar valores
+
+
+=declararparm   OK          	               int  0
+=declararparm   NaoExisteLista 	               int  1
+=declararparm   SemMemoria                     int  2
+
+
+
+== Criar Lista de Pecas Finalizadas
+=criarlistapecasfinalizadas     OK
+
+== Destruir Lista de Pecas Finalizadas
+=destruirlistapecasfinalizadas OK
+
+== Destruindo uma lista que nao existe com recuperar
+=destruirlistapecasfinalizadas  OK
+=recuperar
+
+==Destruindo uma lista que nao existe e acusando o erro
+=destruirlistapecasfinalizadas  NaoExisteLista
+
+==Inserir uma peca na lista
+=inserirpeca OK
+
+// fim

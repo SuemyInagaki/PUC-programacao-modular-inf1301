@@ -1,0 +1,31 @@
+
+!!! Inicio dos testes
+!!!      Construto sob teste: PFZ
+!!!      Script de teste:     teste.script
+
+!!!    0  Linha:     1  // Script:    TesteDadoPontos.script 
+!!!    0  Linha:     2  // Autore:   Suemy Inagaki Pinheiro Fagundes 
+!!!    0  Linha:     3  // // Data:      11/05/2019 
+!!!    0  Linha:     4  // Proposito: Testar o modulo Dado de Pontos 
+!!!    0  Linha:     5  // 
+    7  == Inicializar valores
+   16  == Criar Lista de Pecas Finalizadas
+   19  == Destruir Lista de Pecas Finalizadas
+   22  == Destruindo uma lista que nao existe com recuperar
+>>>    1  Linha:    23  Erro ao destruir lista de pecas finalizadas Deveria ser: 0  É: 1
+<<<    0  Linha:    24  Falha esperada foi recuperada. 
+   26  ==Destruindo uma lista que nao existe e acusando o erro
+   29  ==Inserir uma peca na lista que nao existe
+   32  ==Criando uma lista
+   35  ==Inserir uma peca na lista que existe
+!!!    0  Linha:    40  // fim 
+
+!!! Número de linhas lidas:          40
+!!! Número de casos de teste:         8
+!!! Número comandos corretos:        10
+!!! Número de falhas encontradas:     0
+
+!!! Não foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0
