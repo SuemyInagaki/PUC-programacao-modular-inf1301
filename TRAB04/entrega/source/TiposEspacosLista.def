@@ -1,0 +1,23 @@
+/***************************************************************************
+*
+*  $MCD Arquivo de defini��o: TiposEspacosLista.def
+*
+*  Projeto: Automatiza��o de testes
+*  Gestor:  LES/DI/PUC-Rio
+*  Autores: rdms
+*
+*  $ED Descri��o do arquivo
+* 	Enum para os espaços da lista
+*
+*  $HA Hist�rico de evolu��o:
+*     Vers�o  Autor    Data     Observa��es
+*     1       rdms   28/jun/2019  definição de parte especifica
+*
+***************************************************************************/
+
+
+
+
+	LIS_TipoEspacoCabeca,
+	LIS_TipoEspacoNo,
+	LIS_TipoEspacoValorNo,
