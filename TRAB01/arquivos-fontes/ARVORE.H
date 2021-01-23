@@ -2,7 +2,7 @@
 #define ARVORE_
 /***************************************************************************
 *
-*  $MCD MÛdulo de definiÁ„o: MÛdulo ·rvore
+*  $MCD M√≥dulo de defini√ß√£o: M√≥dulo √°rvore
 *
 *  Arquivo gerado:              ARVORE.H
 *  Letras identificadoras:      ARV
@@ -11,24 +11,24 @@
 *  Gestor:  DI/PUC-Rio
 *  Autores: avs - Arndt von Staa, ft - Fernando Tancini
 *
-*  $HA HistÛrico de evoluÁ„o:
-*     Vers„o  Autor    Data     ObservaÁıes
-*       4.00   ft    03/04/2019 Adicao das funÁıes do T1
-*       3.00   avs   28/02/2003 UniformizaÁ„o da interface das funÁıes e
-*                               de todas as condiÁıes de retorno.
-*       2.00   avs   03/08/2002 EliminaÁ„o de cÛdigo duplicado, reestruturaÁ„o
-*       1.00   avs   15/08/2001 InÌcio do desenvolvimento
+*  $HA Hist√≥rico de evolu√ß√£o:
+*     Vers√£o  Autor    Data     Observa√ß√µes
+*       4.00   ft    03/04/2019 Adicao das fun√ß√µes do T1
+*       3.00   avs   28/02/2003 Uniformiza√ß√£o da interface das fun√ß√µes e
+*                               de todas as condi√ß√µes de retorno.
+*       2.00   avs   03/08/2002 Elimina√ß√£o de c√≥digo duplicado, reestrutura√ß√£o
+*       1.00   avs   15/08/2001 In√≠cio do desenvolvimento
 *
-*  $ED DescriÁ„o do mÛdulo
-*     Este mÛdulo implementa um conjunto simples de funÁıes para criar e
-*     explorar ·rvores bin·rias.
-*     A ·rvore possui uma cabeÁa que contÈm uma referÍncia para a raÌz da
-*     ·rvore e outra para um nÛ corrente da ·rvore.
-*     A cada momento o mÛdulo admite no m·ximo uma ˙nica ·rvore.
-*     Ao iniciar a execuÁ„o do programa n„o existe ·rvore.
-*     A ·rvore poder· estar vazia. Neste caso a raiz e o nÛ corrente
-*     ser„o nulos, embora a cabeÁa esteja definida.
-*     O nÛ corrente ser· nulo se e somente se a ·rvore estiver vazia.
+*  $ED Descri√ß√£o do m√≥dulo
+*     Este m√≥dulo implementa um conjunto simples de fun√ß√µes para criar e
+*     explorar √°rvores bin√°rias.
+*     A √°rvore possui uma cabe√ßa que cont√©m uma refer√™ncia para a ra√≠z da
+*     √°rvore e outra para um n√≥ corrente da √°rvore.
+*     A cada momento o m√≥dulo admite no m√°ximo uma √∫nica √°rvore.
+*     Ao iniciar a execu√ß√£o do programa n√£o existe √°rvore.
+*     A √°rvore poder√° estar vazia. Neste caso a raiz e o n√≥ corrente
+*     ser√£o nulos, embora a cabe√ßa esteja definida.
+*     O n√≥ corrente ser√° nulo se e somente se a √°rvore estiver vazia.
 *
 ***************************************************************************/
  
@@ -52,39 +52,39 @@
                /* Executou correto */
 
          ARV_CondRetNaoCriouRaiz = 1 ,
-               /* N„o criou nÛ raiz */
+               /* N√£o criou n√≥ raiz */
 
          ARV_CondRetErroEstrutura = 2 ,
-               /* Estrutura da ·rvore est· errada */
+               /* Estrutura da √°rvore est√° errada */
 
          ARV_CondRetNaoEhFolha = 3 ,
-               /* N„o È folha relativa ‡ direÁ„o de inserÁ„o desejada */
+               /* N√£o √© folha relativa √† dire√ß√£o de inser√ß√£o desejada */
 
          ARV_CondRetArvoreNaoExiste = 4 ,
-               /* ¡rvore n„o existe */
+               /* √Årvore n√£o existe */
 
          ARV_CondRetArvoreVazia = 5 ,
-               /* ¡rvore est· vazia */
+               /* √Årvore est√° vazia */
 
          ARV_CondRetNohEhRaiz = 6 ,
-               /* NÛ corrente È raiz */
+               /* N√≥ corrente √© raiz */
 
          ARV_CondRetNaoPossuiFilho = 7 ,
-               /* NÛ corrente n„o possui filho na direÁ„o desejada */
+               /* N√≥ corrente n√£o possui filho na dire√ß√£o desejada */
 
          ARV_CondRetFaltouMemoria = 8
-               /* Faltou memÛria ao alocar dados */
+               /* Faltou mem√≥ria ao alocar dados */
 
    } ARV_tpCondRet ;
 
 
 /***********************************************************************
 *
-*  $FC FunÁ„o: ARV Criar ·rvore
+*  $FC Fun√ß√£o: ARV Criar √°rvore
 *
-*  $ED DescriÁ„o da funÁ„o
-*     Cria uma nova ·rvore vazia.
-*     Caso j· exista uma ·rvore, esta ser· destruÌda.
+*  $ED Descri√ß√£o da fun√ß√£o
+*     Cria uma nova √°rvore vazia.
+*     Caso j√° exista uma √°rvore, esta ser√° destru√≠da.
 *
 *  $FV Valor retornado
 *     ARV_CondRetOK
@@ -97,11 +97,11 @@
 
 /***********************************************************************
 *
-*  $FC FunÁ„o: ARV Destruir ·rvore
+*  $FC Fun√ß√£o: ARV Destruir √°rvore
 *
-*  $ED DescriÁ„o da funÁ„o
-*     DestrÛi o corpo e a cabeÁa da ·rvore, anulando a ·rvore corrente.
-*     Faz nada caso a ·rvore corrente n„o exista.
+*  $ED Descri√ß√£o da fun√ß√£o
+*     Destr√≥i o corpo e a cabe√ßa da √°rvore, anulando a √°rvore corrente.
+*     Faz nada caso a √°rvore corrente n√£o exista.
 *
 ***********************************************************************/
 
@@ -110,16 +110,16 @@
 
 /***********************************************************************
 *
-*  $FC FunÁ„o: ARV Adicionar filho ‡ esquerda
+*  $FC Fun√ß√£o: ARV Adicionar filho √† esquerda
 *
-*  $EP Par‚metros
-*     $P ValorParm - valor a ser inserido no novo nÛ.
+*  $EP Par√¢metros
+*     $P ValorParm - valor a ser inserido no novo n√≥.
 *
 *  $FV Valor retornado
 *     ARV_CondRetOK
 *     ARV_CondRetErroEstrutura
 *     ARV_CondRetFaltouMemoria
-*     ARV_CondRetNaoEhFolha     - caso n„o seja folha para a esquerda
+*     ARV_CondRetNaoEhFolha     - caso n√£o seja folha para a esquerda
 *
 ***********************************************************************/
 
@@ -127,10 +127,10 @@
 
 /***********************************************************************
 *
-*  $FC FunÁ„o: ARV Adicionar folha ‡ esquerda
+*  $FC Fun√ß√£o: ARV Adicionar folha √† esquerda
 *
-*  $EP Par‚metros
-*     $P ValorParm - valor a ser inserido no novo nÛ.
+*  $EP Par√¢metros
+*     $P ValorParm - valor a ser inserido no novo n√≥.
 *     $P int1 - primeiro valor da lista encadeada.
 *     $P int2 - segundo valor da lista encadeada.
 *     $P int3 - terceiro valor da lista encadeada.
@@ -139,7 +139,7 @@
 *     ARV_CondRetOK
 *     ARV_CondRetErroEstrutura
 *     ARV_CondRetFaltouMemoria
-*     ARV_CondRetNaoEhFolha     - caso n„o seja folha para a esquerda
+*     ARV_CondRetNaoEhFolha     - caso n√£o seja folha para a esquerda
 *
 ***********************************************************************/
 
@@ -148,16 +148,16 @@
 
 /***********************************************************************
 *
-*  $FC FunÁ„o: ARV Adicionar filho ‡ direita
+*  $FC Fun√ß√£o: ARV Adicionar filho √† direita
 *
-*  $EP Par‚metros
-*     $P ValorParm - valor a ser inserido no novo nÛ
+*  $EP Par√¢metros
+*     $P ValorParm - valor a ser inserido no novo n√≥
 *
 *  $FV Valor retornado
 *     ARV_CondRetOK
 *     ARV_CondRetErroEstrutura
 *     ARV_CondRetFaltouMemoria
-*     ARV_CondRetNaoEhFolha     - caso n„o seja folha para a direita
+*     ARV_CondRetNaoEhFolha     - caso n√£o seja folha para a direita
 *
 ***********************************************************************/
 
@@ -165,10 +165,10 @@
 
 /***********************************************************************
 *
-*  $FC FunÁ„o: ARV Adicionar folha ‡ direita
+*  $FC Fun√ß√£o: ARV Adicionar folha √† direita
 *
-*  $EP Par‚metros
-*     $P ValorParm - valor a ser inserido no novo nÛ.
+*  $EP Par√¢metros
+*     $P ValorParm - valor a ser inserido no novo n√≥.
 *     $P int1 - primeiro valor da lista encadeada.
 *     $P int2 - segundo valor da lista encadeada.
 *     $P int3 - terceiro valor da lista encadeada.
@@ -177,7 +177,7 @@
 *     ARV_CondRetOK
 *     ARV_CondRetErroEstrutura
 *     ARV_CondRetFaltouMemoria
-*     ARV_CondRetNaoEhFolha     - caso n„o seja folha para a direita
+*     ARV_CondRetNaoEhFolha     - caso n√£o seja folha para a direita
 *
 ***********************************************************************/
 
@@ -185,7 +185,7 @@
 
 /***********************************************************************
 *
-*  $FC FunÁ„o: Costurar folhas
+*  $FC Fun√ß√£o: Costurar folhas
 *
 *  $FV Valor retornado
 *     ARV_CondRetOK
@@ -198,7 +198,7 @@
 
 /***********************************************************************
 *
-*  $FC FunÁ„o: Mostra Costura
+*  $FC Fun√ß√£o: Mostra Costura
 *
 *  $FV Valor retornado
 *     ARV_CondRetOK
@@ -211,7 +211,7 @@
 
 /***********************************************************************
 *
-*  $FC FunÁ„o: ARV Ir para nÛ pai
+*  $FC Fun√ß√£o: ARV Ir para n√≥ pai
 *
 *  $FV Valor retornado
 *     ARV_CondRetOK
@@ -226,13 +226,13 @@
 
 /***********************************************************************
 *
-*  $FC FunÁ„o: ARV Ir para nÛ ‡ esquerda
+*  $FC Fun√ß√£o: ARV Ir para n√≥ √† esquerda
 *
 *  $FV Valor retornado
 *     ARV_CondRetOK
 *     ARV_CondRetArvoreNaoExiste
 *     ARV_CondRetArvoreVazia
-*     ARV_CondRetNaoPossuiFilho   - nÛ corrente n„o possui filho ‡ esquerda
+*     ARV_CondRetNaoPossuiFilho   - n√≥ corrente n√£o possui filho √† esquerda
 *
 ***********************************************************************/
 
@@ -241,13 +241,13 @@
 
 /***********************************************************************
 *
-*  $FC FunÁ„o: ARV Ir para nÛ ‡ direita
+*  $FC Fun√ß√£o: ARV Ir para n√≥ √† direita
 *
 *  $FV Valor retornado
 *     ARV_CondRetOK
 *     ARV_CondRetArvoreNaoExiste
 *     ARV_CondRetArvoreVazia
-*     ARV_CondRetNaoPossuiFilho   - nÛ corrente n„o possui filho ‡ direita
+*     ARV_CondRetNaoPossuiFilho   - n√≥ corrente n√£o possui filho √† direita
 *
 ***********************************************************************/
 
@@ -256,11 +256,11 @@
 
 /***********************************************************************
 *
-*  $FC FunÁ„o: ARV Obter valor corrente
+*  $FC Fun√ß√£o: ARV Obter valor corrente
 *
-*  $EP Par‚metros
-*     $P ValorParm - È o par‚metro que receber· o valor contido no nÛ.
-*                    Este par‚metro È passado por referÍncia.
+*  $EP Par√¢metros
+*     $P ValorParm - √© o par√¢metro que receber√° o valor contido no n√≥.
+*                    Este par√¢metro √© passado por refer√™ncia.
 *
 *  $FV Valor retornado
 *     ARV_CondRetOK
@@ -273,7 +273,7 @@
 
 #undef ARVORE_EXT
 
-/********** Fim do mÛdulo de definiÁ„o: MÛdulo ·rvore **********/
+/********** Fim do m√≥dulo de defini√ß√£o: M√≥dulo √°rvore **********/
 
 #else
 #endif
