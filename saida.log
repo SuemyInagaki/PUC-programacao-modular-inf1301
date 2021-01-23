@@ -1,0 +1,51 @@
+
+!!! Inicio dos testes
+!!!      Construto sob teste: TRAB1
+!!!      Script de teste:     TesteArvore.script
+
+!!!    0  Linha:     1  // Script:    TesteArvore.script 
+!!!    0  Linha:     2  // Autor:     Julia Rocha 
+!!!    0  Linha:     3  // Data:      01/abr/2019 
+!!!    0  Linha:     4  // Propósito: Testa a construção de uma árvore usando parâmetros literais, testa costura da arvore em rodem alfabetica 
+!!!    0  Linha:     5  // 
+    7  == Verificar assertivas de entrada de irdir
+   10  == Verificar comando recuperar, erro proposital de ir para direita antes da arvore existir
+>>>    1  Linha:    11  Retorno errado ao ir para direita. Deveria ser: 0  É: 4
+<<<    0  Linha:    12  Falha esperada foi recuperada. 
+   14  == Verificar ObterValorCorr relativo a árvore inexistente
+   17  == Verificar recuperar de ObterValorCorr relativo a árvore inexistente
+>>>    1  Linha:    18  Retorno errado ao obter valor corrente. Deveria ser: 1  É: 4
+<<<    0  Linha:    19  Falha esperada foi recuperada. 
+   21  == Verificar comando de ir para direita antes da arvore
+   24  == Verificar comando de ir para esquerda antes da arvore
+   27  == Criar árvore
+   30  == Ir para direita com arvore vazia
+   33  == Ir para esquerda com arvore vazia
+   36  == Verifica se tem raiz, nao tem
+   39  == Insere raiz
+   42  == Verifica se tem raiz, tem
+   46  == Inserir à direita
+   50  == Inserir à direita
+   54  == Inserir à esquerda
+   59  == Inserir à direita, nao da
+   63  == Inserir à esquerda, nao da
+   66  == Verificar controle de obter o valor inserido errado
+>>>    1  Linha:    67  Conteúdo do nó está errado. Deveria ser: 'x'  É: 'j'
+<<<    0  Linha:    68  Falha esperada foi recuperada. 
+   70  == Ir para no pai, tem
+   74  == Ir para no esquerda, nao tem
+   77  == Ir para no direita, tem
+   80  == Costura arvore
+   83  == Mostrar costura
+   86  == Destroi a arvore
+!!!    0  Linha:    92  // fim 
+
+!!! Número de linhas lidas:          92
+!!! Número de casos de teste:        24
+!!! Número comandos corretos:        29
+!!! Número de falhas encontradas:     0
+
+!!! Não foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0

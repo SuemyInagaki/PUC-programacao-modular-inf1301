@@ -1,0 +1,92 @@
+// Script:    TesteArvore.script
+// Autor:     Julia Rocha
+// Data:      01/abr/2019
+// Propósito: Testa a construção de uma árvore usando parâmetros literais, testa costura da arvore em rodem alfabetica
+//
+
+== Verificar assertivas de entrada de irdir
+=irdir      4
+
+== Verificar comando recuperar, erro proposital de ir para direita antes da arvore existir
+=irdir      0
+=recuperar 
+
+== Verificar ObterValorCorr relativo a árvore inexistente
+=obter      '!'   4
+
+== Verificar recuperar de ObterValorCorr relativo a árvore inexistente
+=obter      '!'   1  
+=recuperar
+
+== Verificar comando de ir para direita antes da arvore
+=irdir 4
+
+== Verificar comando de ir para esquerda antes da arvore
+=iresq 4
+
+== Criar árvore
+=criar      0  
+
+== Ir para direita com arvore vazia
+=irdir 5
+
+== Ir para esquerda com arvore vazia
+=iresq 5
+
+== Verifica se tem raiz, nao tem
+=irpai	5
+
+== Insere raiz
+=insdir	'a' 0
+
+== Verifica se tem raiz, tem
+=irpai 6
+=obter 'a' 0
+
+== Inserir à direita
+=insdir     'j'   0
+=obter 	'j' 0
+
+== Inserir à direita
+=insdir     'd'   0
+=obter 	'd' 0
+
+== Inserir à esquerda
+=irpai	0
+=obter 	'j' 0
+=insesq     'b'   0
+
+== Inserir à direita, nao da
+=irpai	0
+=insdir     'f'   3
+
+== Inserir à esquerda, nao da
+=insdir     'g'   3
+
+== Verificar controle de obter o valor inserido errado
+=obter      'x'   0
+=recuperar
+
+== Ir para no pai, tem
+=irpai      0
+=obter      'a'   0
+
+== Ir para no esquerda, nao tem
+=iresq      7
+
+== Ir para no direita, tem
+=irdir      0
+
+== Costura arvore
+=costurar 	0
+
+== Mostrar costura
+=mostrarcostura	0
+
+== Destroi a arvore
+=destruir   
+=irdir      4
+
+
+
+// fim
