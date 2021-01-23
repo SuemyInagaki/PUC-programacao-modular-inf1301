@@ -1,0 +1,26 @@
+
+!!! Inicio dos testes
+!!!      Construto sob teste: TRAB2-1
+!!!      Script de teste:     TesteTabuleiro.script
+
+!!!    0  Linha:     1  // Script:    TesteTabuleiro.script 
+!!!    0  Linha:     2  // Autor:     Fernando Baggi Tancini 
+!!!    0  Linha:     3  // Data:      06/mai/2019 
+!!!    0  Linha:     4  // Propósito: Testar o modulo do tabuleiro 
+!!!    0  Linha:     5  // 
+    7  == TESTE 1 - Verificar posicao inicial do tabuleiro
+   35  == TESTE 2 - Verifica as cores das pecas
+   47  == TESTE 3 - Verifica a movimentacao de pecas
+!!!    0  Linha:    49  // move 2 pecas da casa 1 p casa 2 
+!!!    0  Linha:    56  // move 3 pecas da casa 19 p casa 21 
+!!!    0  Linha:    65  // fim 
+
+!!! Número de linhas lidas:          65
+!!! Número de casos de teste:         3
+!!! Número comandos corretos:        50
+!!! Número de falhas encontradas:     0
+
+!!! Não foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0

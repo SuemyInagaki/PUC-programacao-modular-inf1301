@@ -1,0 +1,65 @@
+// Script:    TesteTabuleiro.script
+// Autor:     Fernando Baggi Tancini
+// Data:      06/mai/2019
+// Propósito: Testar o modulo do tabuleiro
+//
+
+== TESTE 1 - Verificar posicao inicial do tabuleiro
+=criar 0
+=nump 1 2 0
+=nump 2 0 0
+=nump 3 0 0
+=nump 4 0 0
+=nump 5 0 0
+=nump 6 5 0
+=nump 7 0 0
+=nump 8 3 0
+=nump 9 0 0
+=nump 10 0 0
+=nump 11 0 0
+=nump 12 5 0
+=nump 13 5 0
+=nump 14 0 0
+=nump 15 0 0
+=nump 16 0 0
+=nump 17 3 0
+=nump 18 0 0
+=nump 19 5 0
+=nump 20 0 0
+=nump 21 0 0
+=nump 22 0 0
+=nump 23 0 0
+=nump 24 2 0
+=dest
+
+== TESTE 2 - Verifica as cores das pecas
+=criar 0
+=corp 1 'p' 0
+=corp 6 'v' 0
+=corp 8 'v' 0
+=corp 12 'p' 0
+=corp 13 'v' 0
+=corp 17 'p' 0
+=corp 19 'p' 0
+=corp 24 'v' 0
+=dest
+
+== TESTE 3 - Verifica a movimentacao de pecas
+=criar 0
+// move 2 pecas da casa 1 p casa 2
+=nump 1 2 0
+=rem 1 2 0
+=nump 1 0 0
+=nump 2 0 0
+=ins 2 2 'p' 0
+=nump 2 2 0
+// move 3 pecas da casa 19 p casa 21
+=nump 19 5 0
+=rem 19 3 0
+=nump 19 2 0
+=nump 21 0 0
+=ins 21 3 'p' 0
+=nump 21 3 0
+=dest
+
+// fim
