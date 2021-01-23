@@ -1,0 +1,27 @@
+﻿// Script:    TestPeca.script
+// Autor:   Julia Affonso Figueiredo Rocha
+// Data:      05/05/2019
+// Proposito: Testar o modulo Peca.C
+
+
+
+== Teste
+
+=criaPeca 'p' 0
+// pega a cor errada
+=obtemCor 'v' 0
+=recuperar
+// pega a cor certa
+=obtemCor 'p' 0
+// destruir
+=destruirPeca
+
+
+
+
+// fim do teste
+
+
+
+
+

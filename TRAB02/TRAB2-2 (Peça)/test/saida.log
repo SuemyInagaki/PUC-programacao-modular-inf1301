@@ -1,0 +1,26 @@
+
+!!! Inicio dos testes
+!!!      Construto sob teste: TRAB2-2
+!!!      Script de teste:     TestePeca.script
+
+>>>    1  Linha:     1  Comando de teste ignorado:  ï»¿// Script:    TestPeca.script
+!!!    1  Linha:     2  // Autor:   Julia Affonso Figueiredo Rocha 
+!!!    1  Linha:     3  // Data:      05/05/2019 
+!!!    1  Linha:     4  // Proposito: Testar o modulo Peca.C 
+    8  == Teste
+!!!    1  Linha:    11  // pega a cor errada 
+>>>    2  Linha:    12  Cor esperada diferente da cor retornada. Deveria ser: 'v'  É: 'p'
+<<<    1  Linha:    13  Falha esperada foi recuperada. 
+!!!    1  Linha:    14  // pega a cor certa 
+!!!    1  Linha:    16  // destruir 
+!!!    1  Linha:    22  // fim do teste 
+
+!!! Número de linhas lidas:          27
+!!! Número de casos de teste:         1
+!!! Número comandos corretos:         3
+!!! Número de falhas encontradas:     1
+
+!!! Foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0
