@@ -1,0 +1,11 @@
+___Data___|___Horas_Trabalhadas___|______Tipo_Tarefa_________|______Descrição da Tarefa Realizada_____________________________
+12/06/2019| 02 horas e 00 minutos | projetar                 | Criei o modulo Pecas Capturadas 
+12/06/2019| 04 horas e 00 minutos | codificar módulo         | Terminei os arquivos .h
+12/06/2019| 03 horas e 00 minutos | codificar módulo         | Terminei os arquivos .c
+14/06/2019| 02 horas e 00 minutos | realizar os testes       | Fiz o script e o modulo de testes para Pecas Capturadas
+14/06/2019| 02 horas e 00 minutos | revisar código do módulo | Revisei o codigo do modulo Pecas Capturadas
+14/06/2019| 02 horas e 00 minutos | revisar script de teste  | Revisei o script
+15/06/2019| 01 horas e 00 minutos | especificar os módulos   | Documentar o modulo
+15/06/2019| 01 horas e 00 minutos | especificar as funções   | Documentar o modulo
+16/06/2019| 04 horas e 00 minutos | modelar                  | Fiz o script de teste manual para a aplicação 
+16/06/2019| 00 horas e 30 minutos | projetar                 | Conclui o relatório 

@@ -1,0 +1,11 @@
+___Data___|___Horas_Trabalhadas___|______Tipo_Tarefa_________|______Descrição da Tarefa Realizada_____________________________
+28/05/2019| 02 horas e 00 minutos | projetar                 | Criei o modulo Pecas Finalizadas
+01/06/2019| 04 horas e 00 minutos | codificar módulo         | Terminei os arquivos .h
+01/06/2019| 03 horas e 00 minutos | codificar módulo         | Terminei os arquivos .c
+09/06/2019| 03 horas e 00 minutos | realizar os testes       | Fiz o script e o modulo de testes para Pecas Finalizadas
+14/06/2019| 02 horas e 00 minutos | revisar código do módulo | Revisei o codigo do modulo Pecas Finalizadas
+15/06/2019| 00 horas e 30 minutos | revisar script de teste  | Revisei o script
+15/06/2019| 01 horas e 00 minutos | especificar os módulos   | Documentar o modulo
+15/06/2019| 01 horas e 00 minutos | especificar as funções   | Fiz as assertivas d entrada e de saída das funções
+16/06/2019| 04 horas e 00 minutos | modelar                  | Fiz o manual de usuário para o jogo 
+16/06/2019| 05 horas e 30 minutos | revisar código do módulo | Ajudei a Júlia a resolver o problema do módulo peças capturadas
