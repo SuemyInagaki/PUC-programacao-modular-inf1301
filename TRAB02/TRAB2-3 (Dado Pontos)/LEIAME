@@ -1,0 +1,72 @@
+Módulo de Dado Ponto para ser utilizado no jogo de gamão Versão 1.0 13/05/2019
+Disciplina: INF1301 - Programação Modular
+
+------------------------------------------------------------------------------
+AUTORES
+------------------------------------------------------------------------------
+
+- Suemy Inagaki (inagakisuemy@gmail.com)
+
+-------------------------------------------------------------------------------
+AVISOS GERAIS
+-------------------------------------------------------------------------------
+
+- Programa desenvolvido para ser utilizado no Windows 7
+
+-------------------------------------------------------------------------------
+DESCRIÇÃO DO PROGRAMA
+-------------------------------------------------------------------------------
+
+- Contém funções de dado de pontos para o jogo de gamão
+
+-------------------------------------------------------------------------------
+ARQUIVOS FONTE
+-------------------------------------------------------------------------------
+-> Arquivos Disponíveis na pasta Source
+- Módulos de Implementação
+	DadoPontos.c
+	PECA.c
+	TesteDadoPontos.c
+
+- Módulos de Interface
+	DadoPontos.h
+	PECA.h
+	LERPARM.H
+	TST_ESPC.H
+	GENERICO.H
+
+- Biblioteca
+	ArcaboucoTeste.lib
+
+-> Arquivos Disponíveis na pasta Teste
+
+- Arquivo de Script 
+	TestDadoPontos.script
+
+- Arquivo de Log
+	saida.log
+
+- Arquivo .bat
+	TestDadoPontos.bat
+
+- Arquivo Executável
+	TRAB2-3.exe
+
+-> Arquivo Leiame
+	LEIAME.TXT
+
+-------------------------------------------------------------------------------
+UTILIZAÇÃO DO PROGRAMA
+-------------------------------------------------------------------------------
+
+- Extraia o conteúdo do arquivo INF1301-Trab02.zip
+
+- Execução do Teste
+	Dê dois cliques em TestDadoPontos.bat
+
+- Visualisação do Log de Saída
+	Abra o arquivo saida.log gerado após a execução do passo anterior
+
+------------------------------------------------------------------------------
+FIM
+------------------------------------------------------------------------------
