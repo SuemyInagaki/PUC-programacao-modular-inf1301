@@ -1,0 +1,24 @@
+
+!!! Inicio dos testes
+!!!      Construto sob teste: TRAB2-4
+!!!      Script de teste:     TesteDado.script
+
+>>>    1  Linha:     1  Comando de teste ignorado:  ï»¿// Script:    TesteDado.script
+!!!    1  Linha:     2  // Autores:   Julia Affonso Figueiredo Rocha 
+!!!    1  Linha:     3  // Data:      05/05/2019 
+!!!    1  Linha:     4  // Proposito: Testar o modulo Dado.c 
+!!!    1  Linha:     5  // 
+    7  == Jogar dado
+>>>    2  Linha:     8  Retorno errado ao jogar dado. Deveria ser: 1  É: 0
+<<<    1  Linha:     9  Falha esperada foi recuperada. 
+!!!    1  Linha:    13  // Fim 
+
+!!! Número de linhas lidas:          16
+!!! Número de casos de teste:         1
+!!! Número comandos corretos:         1
+!!! Número de falhas encontradas:     1
+
+!!! Foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0

@@ -1,0 +1,16 @@
+﻿// Script:    TesteDado.script
+// Autores:   Julia Affonso Figueiredo Rocha
+// Data:      05/05/2019
+// Proposito: Testar o modulo Dado.c
+//
+
+== Jogar dado
+=jogar 1
+=recuperar
+=jogar 0
+
+
+// Fim
+
+
+
