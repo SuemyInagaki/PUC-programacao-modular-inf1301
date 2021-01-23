@@ -1,0 +1,75 @@
+
+Módulo de Peças Finalizadas para ser utilizado no jogo de gamão Versão 1.0 13/06/2019
+Disciplina: INF1301 - Programação Modular
+
+------------------------------------------------------------------------------
+AUTORES
+------------------------------------------------------------------------------
+
+- Suemy Inagaki (inagakisuemy@gmail.com)
+
+-------------------------------------------------------------------------------
+AVISOS GERAIS
+-------------------------------------------------------------------------------
+
+- Programa desenvolvido para ser utilizado no Windows 7
+
+-------------------------------------------------------------------------------
+DESCRIÇÃO DO PROGRAMA
+-------------------------------------------------------------------------------
+
+- Contém funções de peças finalizadas para o jogo de gamão
+
+-------------------------------------------------------------------------------
+ARQUIVOS FONTE
+-------------------------------------------------------------------------------
+-> Arquivos Disponíveis na pasta Source
+- Módulos de Implementação
+	PecasFinalizadas.c
+	PECA.c
+	LISTA.c
+	TestePecasFinalizadas.c
+
+- Módulos de Interface
+  PecasFinalizadas.h
+	PECA.h
+	LISTA.h
+	LERPARM.H
+	TST_ESPC.H
+	GENERICO.H
+
+- Biblioteca
+	ArcaboucoTeste.lib
+
+-> Arquivos Disponíveis na pasta Teste
+
+- Arquivo de Script 
+	TestPecasFinalizadas.script
+
+- Arquivo de Log
+	saida.log
+
+- Arquivo .bat
+	teste.bat
+
+- Arquivo Executável
+	TRAB3-3.exe
+
+-> Arquivo Leiame
+	LEIAME.TXT
+
+-------------------------------------------------------------------------------
+UTILIZAÇÃO DO PROGRAMA
+-------------------------------------------------------------------------------
+
+- Extraia o conteúdo do arquivo INF1301-Trab03.zip
+
+- Execução do Teste
+	Dê dois cliques em teste.bat
+
+- Visualisação do Log de Saída
+	Abra o arquivo saida.log gerado após a execução do passo anterior
+
+------------------------------------------------------------------------------
+FIM
+------------------------------------------------------------------------------
