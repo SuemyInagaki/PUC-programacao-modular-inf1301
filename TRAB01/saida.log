@@ -6,31 +6,31 @@
 !!!    0  Linha:     1  // Script:    TesteArvore.script 
 !!!    0  Linha:     2  // Autor:     Julia Rocha 
 !!!    0  Linha:     3  // Data:      01/abr/2019 
-!!!    0  Linha:     4  // PropÛsito: Testa a construÁ„o de uma ·rvore usando par‚metros literais, testa costura da arvore em rodem alfabetica 
+!!!    0  Linha:     4  // Prop√≥sito: Testa a constru√ß√£o de uma √°rvore usando par√¢metros literais, testa costura da arvore em rodem alfabetica 
 !!!    0  Linha:     5  // 
     7  == Verificar assertivas de entrada de irdir
    10  == Verificar comando recuperar, erro proposital de ir para direita antes da arvore existir
->>>    1  Linha:    11  Retorno errado ao ir para direita. Deveria ser: 0  …: 4
+>>>    1  Linha:    11  Retorno errado ao ir para direita. Deveria ser: 0  √â: 4
 <<<    0  Linha:    12  Falha esperada foi recuperada. 
-   14  == Verificar ObterValorCorr relativo a ·rvore inexistente
-   17  == Verificar recuperar de ObterValorCorr relativo a ·rvore inexistente
->>>    1  Linha:    18  Retorno errado ao obter valor corrente. Deveria ser: 1  …: 4
+   14  == Verificar ObterValorCorr relativo a √°rvore inexistente
+   17  == Verificar recuperar de ObterValorCorr relativo a √°rvore inexistente
+>>>    1  Linha:    18  Retorno errado ao obter valor corrente. Deveria ser: 1  √â: 4
 <<<    0  Linha:    19  Falha esperada foi recuperada. 
    21  == Verificar comando de ir para direita antes da arvore
    24  == Verificar comando de ir para esquerda antes da arvore
-   27  == Criar ·rvore
+   27  == Criar √°rvore
    30  == Ir para direita com arvore vazia
    33  == Ir para esquerda com arvore vazia
    36  == Verifica se tem raiz, nao tem
    39  == Insere raiz
    42  == Verifica se tem raiz, tem
-   46  == Inserir ‡ direita
-   50  == Inserir ‡ direita
-   54  == Inserir ‡ esquerda
-   59  == Inserir ‡ direita, nao da
-   63  == Inserir ‡ esquerda, nao da
+   46  == Inserir √† direita
+   50  == Inserir √† direita
+   54  == Inserir √† esquerda
+   59  == Inserir √† direita, nao da
+   63  == Inserir √† esquerda, nao da
    66  == Verificar controle de obter o valor inserido errado
->>>    1  Linha:    67  Conte˙do do nÛ est· errado. Deveria ser: 'x'  …: 'j'
+>>>    1  Linha:    67  Conte√∫do do n√≥ est√° errado. Deveria ser: 'x'  √â: 'j'
 <<<    0  Linha:    68  Falha esperada foi recuperada. 
    70  == Ir para no pai, tem
    74  == Ir para no esquerda, nao tem
@@ -40,12 +40,12 @@
    86  == Destroi a arvore
 !!!    0  Linha:    92  // fim 
 
-!!! N˙mero de linhas lidas:          92
-!!! N˙mero de casos de teste:        24
-!!! N˙mero comandos corretos:        29
-!!! N˙mero de falhas encontradas:     0
+!!! N√∫mero de linhas lidas:          92
+!!! N√∫mero de casos de teste:        24
+!!! N√∫mero comandos corretos:        29
+!!! N√∫mero de falhas encontradas:     0
 
-!!! N„o foram encontrados problemas
+!!! N√£o foram encontrados problemas
 
 
 !!! Numero de espacos ainda alocados: 0
